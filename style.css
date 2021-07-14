@@ -75,7 +75,7 @@ main {
 }
 
 .main__container--targets p span {
-    display: block; /*le colocamos display block a las etiquetas span para que se coloque el texto en dos renglones como en el design*/
+    display: block; /*le colocamos display block a las etiquetas span para que se coloque el texto en dos renglones como en el design.*/
     font-family: 'Inter', 'sans-serif';
     font-size: 2rem;
     font-weight: bold;
