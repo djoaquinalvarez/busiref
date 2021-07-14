@@ -1,0 +1,17 @@
+main {
+    flex-direction: column; /*reposicionamos los contenedores del main usando display flex, de manera de columnas*/
+    align-items: center; /*alineamos los contenedores hacia el centro*/
+}
+
+.main__container {
+    max-width: none; /*reseteamos el valor de minwidth establecido en desktop*/
+    width: 100%; /*ahora queremos que el contenedor de texto ocupe el 100% del width*/
+    order: 2; /*usamos el order de display flex para colocar el contenedor de texto debajo de la imagen*/
+    border-radius: 0 0 10px 10px; /*cambiamos los bordes redondeados del contenedor*/
+}
+
+.main__container--img {
+    width: 100%;
+    order: 1;
+    border-radius: 10px 10px 0 0;
+}
