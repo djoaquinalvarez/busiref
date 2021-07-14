@@ -1,0 +1,26 @@
+.main__container {
+    padding: 68px 40px; 
+    max-height: none;
+    min-width: 320px;    
+    align-items: center; /*si hubiese contenedores o botones dentro del contenedor, se alinearian en el medio horizontalmente*/
+    text-align: center; /*alinea el texto dentro del contenedor en el centro del mismo*/
+}
+
+.main__container p {
+    margin-bottom: 50px;
+}
+
+.main__container--targets p {
+    padding-right: 0;
+    display: block; /*cambiamos el display de los parrafos para que aparezcan uno debajo del otro*/
+    margin-bottom: 25px;
+}
+
+.main__container--img {
+    min-width: 320px;/*establecemos el minimo tamano de la imagen en mobile*/
+    /*reemplazamos la imagen de desktop por la de mobile*/
+    background-image: linear-gradient(rgba(95, 0, 184, 0.438), rgba(95, 9, 184, 0.438)), url('https://imgur.com/555TqRh');
+    background-position: center;
+    background-size: cover; /*Esto hace que la imagen que cargemos pueda ser redimensionada ocupando el espacio que nosotros le asignemos, sin que queden bordes en los contenedores*/
+    background-repeat: no-repeat;
+}
