@@ -85,7 +85,7 @@ main {
 .main__container--img{
     border-radius: 0 10px 10px 0; /*redondeamos las esquinas derechas de la imagen*/
     /*cargamos la imagen, y le ponemos por encima un degradado de color, para que quede igual que en el diseno*/
-    background-image: linear-gradient(rgba(95, 0, 184, 0.438), rgba(95, 9, 184, 0.438)), url('https://imgur.com/yNGjXmk');
+    background-image: linear-gradient(rgba(95, 0, 184, 0.438), rgba(95, 9, 184, 0.438)), url("https://i.imgur.com/yNGjXmk.jpeg");
     height: 435px;
     width:540px;
     background-position: center;
